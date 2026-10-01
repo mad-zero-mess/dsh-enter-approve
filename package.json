@@ -1,0 +1,56 @@
+{
+  "name": "dsh-enter-approve",
+  "version": "0.1.0",
+  "description": "Codex-style global Enter for DeepSeek Harness: approve a pending authorization request without moving focus into the prompt first.",
+  "type": "module",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "approval",
+    "permission",
+    "keyboard",
+    "enter",
+    "ux"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OWNER/dsh-enter-approve.git"
+  },
+  "homepage": "https://github.com/OWNER/dsh-enter-approve#readme",
+  "bugs": {
+    "url": "https://github.com/OWNER/dsh-enter-approve/issues"
+  },
+  "engines": {
+    "dsh": ">=0.2.0-rc.2"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "^4.0.1"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  },
+  "exports": {
+    ".": {
+      "default": "./lib/index.js"
+    },
+    "./client": "./client/client.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "client",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ]
+}
