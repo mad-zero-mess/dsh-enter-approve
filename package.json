@@ -18,11 +18,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/OWNER/dsh-enter-approve.git"
+    "url": "git+https://github.com/mad-zero-mess/dsh-enter-approve.git"
   },
-  "homepage": "https://github.com/OWNER/dsh-enter-approve#readme",
+  "homepage": "https://github.com/mad-zero-mess/dsh-enter-approve#readme",
   "bugs": {
-    "url": "https://github.com/OWNER/dsh-enter-approve/issues"
+    "url": "https://github.com/mad-zero-mess/dsh-enter-approve/issues"
   },
   "engines": {
     "dsh": ">=0.2.0-rc.2"
@@ -51,6 +51,7 @@
     "client",
     "cordis.patch.yml",
     "README.md",
+    "README.zh.md",
     "LICENSE"
   ]
 }

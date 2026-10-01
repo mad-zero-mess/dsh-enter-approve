@@ -1,5 +1,7 @@
 # dsh-enter-approve
 
+English | [中文](README.zh.md)
+
 Approval prompts in DeepSeek Harness already answer <kbd>Enter</kbd> — but only
 once the focus is already inside the prompt. This plugin closes that last gap so
 <kbd>Enter</kbd> approves from anywhere, the way Codex behaves.
